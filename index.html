@@ -1,10 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; URL='https://prompt2app-blueprint.lovable.app'" />
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; URL='https://prompt2app-blueprint.lovable.app'">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prompt2App</title>
+  <style>
+    /* Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #6c63ff, #e0c3fc);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      max-width: 600px;
+      line-height: 1.5;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 40px;
+      font-size: 1.2em;
+      color: #6c63ff;
+      background-color: #fff;
+      border: none;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: 0.3s;
+      box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .btn:hover {
+      background-color: #f0f0f0;
+      transform: translateY(-3px);
+      box-shadow: 2px 6px 15px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      padding: 20px;
+      margin: 15px 0;
+      max-width: 500px;
+      text-align: left;
+      box-shadow: 2px 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+    }
+
+    .card p {
+      font-size: 1em;
+      color: #fff;
+    }
+
+  </style>
 </head>
 <body>
-  <p>If you are not redirected automatically, <a href="https://prompt2app-blueprint.lovable.app">click here</a>.</p>
+
+  <h1>Welcome to Prompt2App</h1>
+  <p>Prompt2App is an AI-powered web app generator that converts your ideas into fully interactive apps instantly. Explore dynamic pages, editable products, and a modern UI—all fully frontend with smooth navigation!</p>
+  
+  <a href="https://prompt2app-blueprint.lovable.app" class="btn">Open My App</a>
+
+  <!-- Example cards showing app features -->
+  <div class="card">
+    <h2>Home Page</h2>
+    <p>Landing page dynamically generated with your app name and description.</p>
+  </div>
+  <div class="card">
+    <h2>Products / Services</h2>
+    <p>View and edit products or services from your custom dashboard.</p>
+  </div>
+  <div class="card">
+    <h2>Order & Login Pages</h2>
+    <p>Simulate real app behavior with login, order placement, and navigation buttons.</p>
+  </div>
+
+  <footer>
+    Powered by Lovable AI | GitHub Pages Redirect
+  </footer>
+
 </body>
 </html>
